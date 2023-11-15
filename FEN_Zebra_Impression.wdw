@@ -1,0 +1,626 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Zebra_Impression
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Zebra_Impression
+ identifier : 0x2c76bd770256de32
+ internal_properties : CAAAAAgAAABN/+Mfmm4sX1xYdXX0A18HgGjcnbqq+JsVAIvVwwlYWV0Xnz2UxnH3GZeAqi9NmzvcYzAkOXGQ0WSr9OKswwdmwTINfzDNFAo00QesNc4CeMSSuVv7aUnCOE71YgIrQFkatFnGn+yHi1rEfO/AYwTPmz5mFL36f9jLjVoFB6qqJwaAxBK6tV/6vljshbhEbSeqhigcZJ6ZMfb0PJE0uVje8W1ucFZ+AUHzvSnqyeavwLVMVk2m+ysVdIrIAX3XphuSJ5moxT2NXJHEkvvaVeZfH4Una9RLd5gJdwgir1LRvtSR0UKZ5mKaaTCeymie0CWF1RiKtY9HZf8BLtzGQ5K07aDNxoPqqaeJt4DnXxkJJKCLhHFAhTEyS+eBxPjptWeaLEwcqUdUSK6uGYqydymwmrbJCRHqpaVhwQ7Y7YoVDuDr7d6uTLyQJyt2RWzZ8dGjWXm09Y+Hbr4LF1Yw+71hhD6boe1ExOHy+WdkNiREWoLx6ZpWVMVhsWQLBu0tTX7PvqgU7hw6ev2YtNj2d0yxx0IJFaDfOp6kIOyx9juojLVNYBSjpaiSwPOotUF8Xv6ipoIjsgeMZ7wzOEXlVubN20JyIqLQ935H+2hx1/7ofR/tUBnxPS40LsYd6W9HOUuiVDtP2WFDFt6+r9WFng9pC4U3s71EVlQbaPtBSPZcXe4Z1d0oEY2KpMMVyqpuTynM2j+3DV1ACkm3/so1tprIpty6SQcsZDPELXKwdwg+qL6Tc6PHwqh0LygV3QwKys4EoMvSrHW1p6Z+nKG3FsrpbNiDpcZGO3jlWiztF3GRAHhNT2XWXc4KtzSkNm6jYe+Z+WgUEYAcc8F6QgNHxnJumrtxtyH3HFNFR68uAVkTPZtJy4d1VkeGz9uoAyq0GJOK6BuFXr0T7EH1Qsu62/gqWDoCUegSMDAaMhBDC7azg+mv3/ScaYf4UCHCguZLhJ916ohIhJCotYCTI1y4aYOtuA7XIdt8GODuZL8mRBY3WwqjEosWHLBTzZJjDVlZqkZDYKLVdTmezuEYpzgiILu0EDW8fx8M8laZ0SriCfNAlm8lc9JINOU6ceDJ4pYUadWlJyvoC9mjIrIS/2huoXi7OnBPZT0cfCMfZnjEuHbjb7LvEUFLo58vfFkBwSW1VoqoILe6cKyAlYZ0fk3FV0+LHBMxSMqQd0xsqH5qumXHuMD5EChvAHehBQlg4kT6fjxaUIc5ambKnMJZiNNrvenxINVwOLAlbWCaBYywkv54bGvO4BcV/dDTT+bVs1LXEXJ9K5iMfLdi42pKnmvyEm6+W6GTC1viUNw1HQa7pICUDGScyChFxwJOmb8fal8TayjDKWLOEAFrCWFBj8DxRkCIOpmHYrRQqoY2boIssspcXGCLKSDSeMDzBzP+ZIHo8iCr+ukXv+wftgMw8CYsVlCk0Xs03CXjQPXrLc+6IhQ+739JO8xE8pT5VXWsXRh/za07pFzta+N/YSMGeDZtg/IBXDo66F+3o0y+ZvwK5lT09Fjc
+ properties :
+  width : 320
+  height : 465
+  heightMin : 538
+ controls :
+  -
+    name : BTN_ImprimeLigne
+    identifier : 0x2c76bd770257de32
+    internal_properties : CAAAAAgAAACDtFjsPomdpAZKn9C6c7FFSbF6jMbpS9kc0j4gT2kq46a9davQwVxWQNTwC4uWN/HzNG66tBHpwmxDTgCmRFpJxt7QkKUI4gWfQ+McaPwsvrqpGxV1T0GPmZpLiMNr9Y+124iWqhVr4PurClf3Gp14CdqQbMgWAMnYQ4b2ho8wRDXMTaot2SYXM/D/LZG6o787bneFSALr6Q7mrcHZvtN7h9N59HlkWSfeCISYvZ6gl2YeF73wxLFbZ5hNOJterikwYCsFQJ2qR8uAdMNfbtQrKqASy53xdOPB3pUCNZ8hgoGZLqNzwFw3qahrbbdexBizqnVSM5AQt8w/SN1i+ER6gQTxHcYVF9siv2favVwyOsoN4+7OReI/wODjeD7hXneetMHaV5sC9rSlQYHCIFJ+8cLUt/6q3AWpC/RkjlfDKC8qg8mNx4CGwJdas96oj3hS3TDdRqAyeJWC0BHtZzUMBgaAc/TgglPdOBjzhikASu2/BYjnLWWFzPAf7xkwmeehU2f7uQg9BYlp8TSHIVLinLHLyjXSK+AwTYfa/1TjRb+JA04i4c8ZHf537/OK0RH4j9NeZeztjlsvlm7v0mjSCzUPN6INP5qgXOZjNqx9/QfPNLLYiS+odYhkmwvkq1WPv1rgvasMB40WCVD3nEWEELQNpsp2rufqCyw0iFkYrwaW5vEOaL28XxRh9z78DTfn/8b0QwOHx3fiqD2MQpowIzdw0rjgA7S5ejIFC9jsFcuqPfP02fcvFCELShOiPhl0IDcHK6riZZiAntuRw2Fryl6Af1gYoVAhQjt/YZaUbLRYJNqimYenUQIB6bdcV9cu9bpCD2Ci7pEXiP66MvSlBDiQ7q8uTpjau0hX0oqrFj4RWnZfqso2vjJcmUqTkqEg50nCMXwhMXpqk7NI+9U36a/tCXWdrjwB+HgwrhjZZF8vBY42W28LBviED7BVNQuh97RNhr+zI8UQDtYbgoI2BcZauJMtUwpatxND62dUG8AJOigcL/HmO5GgF8f+hGCywLZQkUfrbBxD2oe6vTx9378f8hPDe8QJioI=
+    properties :
+     x : 10
+     y : 10
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Imprime une ligne
+         ZebraPCImprimeLigne("Voici un ligne de test" ,"FEN_Zebra_Impression.CB_SuccesImprimeLigne","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_StatusImprimante
+    identifier : 0x2c76bd770258de32
+    internal_properties : CAAAAAgAAABJ28GabxYhx3rMDEIGncOhiRH5Bfitf80pTR/w1WK48KXmw2fDnuV0DDokZL2ZXOKAhQ7X6xP0jADCwzRzUBuHVwTIn/M9TVwgUkr+cxEsFfK0bwoZZdzjhF2N1S6n5XCuILcp/d3sBtxljypAPfMd+KhMI8W+G1maa2AjVT8n/fUA/ge3DyPoOqgjibiuLRUF8fH7gBqBcpAPD0HSi0GY8/BrOwK+3b9aCl4QXI+NuqHA9xsUh6cn9TsDOdcZc5ezM4RacdpVFXN+e2MdDdgncGDMOIuDLdyQ7GwBktQ/y7YkLdRj8BjfhEtiUt0jXlp1p82+PNwbSgQ05d+WpYsaXPLXJWyrDGKkQK5f9R9uZvH7GG/7Cvg1d4GRCBqGWcUjyEH1LKHJ+NkO/hGlhAr/FHgMA5UijtL6OoutKzS/alNrc6hkj7rySsFr0mBGhbZlh1Lc8RJsRWyckQ4yhoggiOvAHqdMqcnTUC5th05FFUW9f+syH5gcj+++lSdWwKMaB2FkfZ+ii7XjZTfAxk18JT+BSi944KXVE7+4RX33vOfnpABoTZdc2yneoMWh6UgGLkhYXelKtJqJz2f9C7Fzt3nl/o9BNVNorKH9H3ORhg5s+pOkPmoJhYW/qnOwQ+VbmfyzgUJ+NJA16+JCO/iVq4pAMqTI3BXHT61bc5IkWNfrC62dPZyiKSd21PQJ0Zz7dj9TUYn2Eucv+ttAeMJ4i8OrGCSFro6AkvsZ6vUdItw7ApMoMw57N+jnBqJ+jNm360a9RzAQBAKB8s/BL8mGOS+aN/8AE60MWX/4RrJ3rZuKhF889/n3VD82n+f8iYGBfSBOzEq76SUwnYPBW9nBA9N78RB+ox4SqByc4XckEUflbeBAoS/7P3En8bkyBhJPbLmn/RSjes2Djz4qIT9EqaPZQIlzf1plAHgAGCg4BTT4lkIpnDCQvExUbkQCWtL6412d6YNMePxBYyya2+2LrFwSxbO4qeZj1eTieJYhJkcbfPL5ql45f0YHhBaCxrK+3DCyar/nadmtUmD8xsWpfyWoFRGcCPvLSUikrZI2/Qsj6UCtD5Q/BBkl7iwEehaVBj2uiFu9tbefrpAdNbtuLNn3GUCk36llh4PqBze7OFzY
+    properties :
+     x : 12
+     y : 334
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ZebraPCStatutImprimante("FEN_Zebra_Impression.CB_SuccesRecupereStatus","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_DésélectionneImprimante
+    identifier : 0x2c76bd770259de32
+    internal_properties : CAAAAAgAAAAfbjRml9alplcQlnW5pv/cxY7HSP4yus1d3cLo9VIKB8uKTtY0zMU+/oRRkkeimUdXDx76ktmskoWydevWdj1MoNsSa6WkaPW28x4ZtH9H7ARn5L7xSoPkLhnRsx260pG2BE3qHy5dCVUHKFZyblBbpqZGZRI2utjuBzHRwvOcjborQjgn90MHQxpUaj4pRB9/AIzePc7iGtGA57e8im6M30mdGQlW1E6UXTZbKlqAmGXHpQHXhMFirUAexVxPKlvttX8V0tTDcfgFBmTaVH/Pnpbb3Br8+IUr/MCpt6y0HL+lIRiFPL1glZEqoYBEFLukbadmzpbmKEgp33D6Zs96wXdc3ydtSl9Nv5rFo7uCncl10GoQaJxW1D10vvPQ04zQ9VPY5rOXmRN/bl8h7gsBNNjdxmLAtZQKGfPa7Fh0e/BgUaa5JTjLIP7123KcTIJ0Icg+uDe1KtTXbdjaIoKyC1t+kZ/xDubLu7Nj2+Dp9sDIpNg9qSaS+OXvsfKmsJ6PjmoH7UQJMC5onye1x6JWh/lIKNyR5sar6xr75NlmXY3XHzXihV+5zJV/lZMatyVDP3zXhjyv6sI1H9gOe0yci/EgyA7T29PDUyRz1KfPK4ATCyREgWW2bbxWibMg3IprrvAT8kwyDHSioCEEgbsOpFzMYJJrdanEJUjMAIlPyYldXD+TILmsAlLVvg4rtNVkVTvF+5doiQWb6ifcoatXCMBc3C7xtu8CBEqyXA+sbN4SHvBRTKRi7Dtq0kPrCKVePTBQZXp8/rgaQlaK+7qBJp0q/as10GO7JdjANAYQexxOG7s2b6uYFiwvNRlj42wMi+E+GzoO1BU/R/s6bCv6iT2n60vkQE99HmEcoPQHGAHPU22tUBQFratDDajtpuhiMKf0L8SxQgvsY2TAj4Xq1DzLSXQrGS6nPqcsgB4+y9pNBZPm9lthst3SULXQaaDcxFDpgIlO2Rr4sze86FS/E1GYm6Ep4iTr/6FQjp53Sa4qqf+mqXP0n0nfZAtI4okplK0QYGS0s+1zxVeL8OL7usCyNQZhwyaTIRUaXrtIn1yao0SzoQq5p4RCkNwqWCM7JMoAAWZUprdWSYHwGt2Pgyze0IXKEQEkyfRnHPRCPSzkVIdItnbjtUf2MaJHClMfuagDH12cNJc/69h9eHuNgJhBHwJeJ8Dr+O2ESCzUBlXuV3mlasExNph5DoeKi+xUwjmiA5VLNv/3/MNE7fBUYIpYryXwu2UwBFMY1T/NJHHzOKhEvZMLXkEUziEOfzCI/28ZIQjtWLsPszIiKN41kTitYhK+/AADkjUIfA==
+    properties :
+     x : 12
+     y : 388
+     width : 300
+     height : 58
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ZebraPCDeselectionneImprimante("FEN_Zebra_Impression.CB_SuccesDeselectionneImprimante","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ImprimeChaineZPL
+    identifier : 0x2c76bd77025bde32
+    internal_properties : CAAAAAgAAADdOhwE638nJ4hLERNbbGZ1xRnXOZ7tTuFZl72IpLeTZsmeQlq0+kz9UtqdKOdnKJBr0hU1Jo9Kx98mI7loMoaHfc5ywZNjOaJMdh2qZLjcI8U/+xU/weT2kjW8NSRiPg7qY4uEmBnx/Qc4tdMcgJbyQwCuGo9Yj+pzc/ZYcxrBgeTgft71FqHoYJQ39W733n3p/lXpUXTEHJF1PCQrwei6ig8OFpVbx7Cko/QzTERwDF6cwjLtoin4ro/Xpy6vTBHrP9eCNYIx2W5EJZtrY/X4ku7xZRBZsynX8I0WEQNOMFAD3Tv9gPqR+Q2WIT0lrZP77Pyf2RprZ/z43IxkNP52KGJ7yR31zmZQmFjP0HbrtTvmXvahU+hqy8bAGQCQbempYr3Pv9ocJwXzrvUnVFX1obKrLkJ2LCl0tsWXrujglB0CM53M7nDfF76wslMGoFobM9hJ546Y1EHJLYptN8RXJem5Bp6mmrN7IIuePOsjf79gLmqETTRsZRiCmD9SopY+R6WmOHaScSCNQSz2u/Wt84Qk0v+BhUgLR2LIrxG20jhbONSgcGrswu3pfMTFgkFg+N/+AkChTiQ/xh/gm36ElVWAkGoa2n/6PKTX4uOeW7TgqZU1cZFZn3sQvLiOogBNsy9NVqldnmoxULA1y+niaz7Z6IeJ7SftG15BCLLv42PVdAWUclFUM0ddyl3tCqmd6Gb5TvAB2JWnyWEJ+tFD64UyzheeLxDaHsSBI/lg0Vxfq72ZtsV/Q+ZUJtNAY+Bb0Ze7okmx8h6vi782D6D1lfEP80CMA3z38PZAwTLwjwy1+JrFPLIYo9c+CFOryGSltYre9IDCLAJQBZCgqCDmJURwB3sOw4Pd+BsIUhijxOs7HGINKAz88aZia8FvJxM1thCAQ4d0aQwoCBSL8gOBP/v9m2Nzqy5Udbuziv8AvR0L2ovqqFSJAf/mQUWAs+XuiUj/odPgZ9QX1pO/Gxd0OG/VZaGvWdQpppfEuTB5h4KuLS6zOWZfi5+zcv22Xah2qbCQUaQX1IHunKadITbmZScnZHFiVOw77YF4SB+rbc79OMGu5t5FCxfiYOV2menBAslEJZ5y2crUJnr70YroOQ==
+    properties :
+     x : 10
+     y : 172
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAD/Hue1Q+Um4qGw8kyqsobfqiGDFXxwkXnFAo4hDvnp9QBJXVqGTcLbNuseWvGjQ6DD9VrvscsN0JPU4gZdWvmnID2/NMAHqRE/cuuXoI9xGIfSrJsYG6BzE2MpLje8dsEOB9jDaicu3XfIV77Slxw65ICxpCNHhMs1WsSSiOMjw==
+        code : |1+
+         
+         sChaineAImprimer est une chaîne = [
+         \u0010CT~~CD,~CC^~CT~
+         ^XA~TA000~JSN^LT0^MNN^MTD^POI^PMN^LH0,0^JMA^PR5,5~SD10^JUS^LRN^CI0^XZ
+         ^XA
+         ^MMT
+         ^PW406
+         ^LL0609
+         ^LS0
+         ^FO96,384^GFA,06272,06272,00028,:Z64:eJztmEFoI1UYx9OUQrceNkFyESXtLFg7lz17WLrioSdJazNGcIeC4FlYKD3JVBe36XjYi4sXobu5dDp76EkEEVIDYunJQwc9bNhSCEov2pGAW5OM73vf+968N5mkiXhR+hU26f7n3//83vfmzbzJZP5hFaMB1bnS/jtaPp/P5XMv/gj/5nOOqp34vLaP3CrUpKp9amEF+LGiaB0Da65hZFllsouxdm7pPmsp1k49qGp1+7CKdS/WHiZ95VgzKO9glhXMTIe0bpD0WUXSLoDNZSXzqg9Ia1t9viXSzgyND/ImSQv6fRZpLA0BFyhv82PS6NhycFygrw5qvZqIu/H44CQG5FqXfKvBcYu+L6LWweb57v61w7sEuIPaH3TsHSu4Rd/XUAtN0zAh79u5xsvsgyNeR00Oy+urwVv0vYLamS8AZx+E96dF3hZq8tw+KD1/R54zao2agYSni50bswJwEjXqejlweqtyRFFzie/IiV4gvm3U5CQ5ZkMr/whqJiue14iiuRqfoQwQtbgNik/kmb4APIyiax510On3yfNEzaiJBvI8AuRaL/apfKj5VGf13j0azyrXOnSk1Sp237Y0H2u7iYjvX794lQcDINfiq+HWcqEkfUXhE4DfeNNfUlx1h/vkoTazJn01KBZz0zDuGoYALOq+SqHcTs/z/c9OJs/cAXnsKi/0+0QHnR7hZZN51tK5NSDP8/YOvUF86nUrfTXRQXa9GwSIefZQH9XeEVtkxsijDi40aKXJZot6/4blAZ83Dh91EPkQcDw+f0y+R/z5YfKEf2ShgzHfD+pd6lz3Lapab1rNK+u3t4eqb0/XNiVf07bf07VA9e3q2q9qXkXXWprvT+0xKWSDKvgCa62tDA7+Jn37IU1RuE1s/a7mlVqqr6L7TukahJoPVb61ob64ia6r513mM31T5rEJSnwB862sFFaCdJ/X2Q/rJgL25
+         XU/bDsDfHvg+0TmSb4m47O7pTbdKZK+J+DDO4W7FabkDfD5/DxxmZlX+xc8a1kTt6cOLhlP4NvV+JxLxjPuIOSN3z/f3wrdMfonV9F+vlHyxubzNT6D+td81rLtEfLgqgrZKjN6nkRU84AvGGk8gc8bh48B4mqWymfnc7lcPj0PV0PO5ybzboM0ke7D5UXPAz4AnOCV6vNw1QU+L8lX5trUMF8fH5uk9nIO6pVUH+LNMD6f+CqUx/EyhVTfJvrMZB6bpNYbHG+ozwc+D/PWKQ+HLL1/YjhT+ThebpjPBD6f+CqYV748z+zLY3zHQ3zYhoyfyjdkfnoa347C12zeGSkP7k7EV7mUj3yJ/kXA9/NoeTHf+jrPW87g5TCMr7bbzzdCnqnybQi+5QG+UPGZNzW+n56zI98lH7+/03M5Pk+8htpCFIVskeF7i157fZ0/T4jxLOPzhNwHPAGN+HADinsLGwaU1VOcnwWHP7+g5ovnHuGbcfiOCbUNAGTa56gxnyV9JowC08T8nKl32DJq4B7oI5YHz2dfZSbgp1Dnz2cR5fExMYVvcwb+A7UvWAM3WInrbwonqb6PE3lZfp+YQ61JhXx5bhP7xjPybdKE4SPFtd8AsCLXlwm8JlALkz64Scyj1hZxwXd8fclwXwm1C/I9ognDB4pr3Q0GaMUTpgDfxX463njQBGV8ddQk4FN8+8J9Yv8uNpxyYGA4fbHvj77WAbmP3iUc6ScKf2ZBvg9pahXw4RSaHJi4dkn7CwARkapEWidhYnzyHQufMaJsvNHH721eSsZ5sfYLAVKtxlrfiW7FWlcEBlA4mvE7K1e3PY4U7fsNXgT5pqpFGa0cTUupK+1f167qf1t/A8bLpa4=:FC25^FT114,74^A0N,34,33^FB175,1,0,C^FH\^FDPrintConnect^FS
+         ^FT114,116^A0N,34,33^FB175,1,0,C^FH\^FDDemo^FS
+         ^FO54,30^GB299,105,8^FS
+         ^FT105,381^BQN,2,5
+         ^FH\^FDMA,https://www.zebra.com/gb/en/products/software/barcode-printers/link-os/print-connect.html^FS
+         ^PQ1,0,1,Y^XZ
+         ]
+         
+         
+         ZebraPCImprimeChaineZPL(sChaineAImprimer,"FEN_Zebra_Impression.CB_SuccesImprimeChaineZPL","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ImprimeChaineZPLVariable
+    identifier : 0x2c76bd77025cde32
+    internal_properties : CAAAAAgAAACbsQ9R+5JSF28R3iXG8LJYansqEuJ6WVnKHTPDg20hW+SHhqd5CTXbHeIwqeYMkvDYLb8W/ulXwvlMAiNy96e/trbfwc6SK6ufQrJX6dj06cRAEgvQzVq/vDYeKQ2aLntG+irWiMofhx885EHYrGu+6Vh0aTqqbUeagQsPUMFHkbLNeB1BoNuSnjBIBJtGLPQfAMK4X6x0Y+W/4b38RYszAyRmgvdzxAHv+wWFC8Gbsln8L5Z3Y0Y79A62H3+Q/GFZVKB3DD4yFWMA8f8XxArbM7C8NWYou6yQ0R+DZwa1Bu8A6iHyl+CY1oepgYu/Uy/t3Z0z/UGz7Q2RLu+PWSyCZMqQbgwNB3MY51m7Astbb7J9Lj8qOJR2OAYSI9qVsCg7PW3iAjRvYBh8JjfSLJn07NQ5y1IS1s2BF6iYl6ewZ7cLrqWPEuzVScIIL2mRyTPZMQYBg2uSE6tic0JhOHXn0EbRebkfpigEC/82kR1zE6t6qIONrD8K0XWu6G8URjuIb5wkxSKiL/znPrxyjPOOd5Owb+nchuLxDFssxkR7RIvfwEIz4QCQtzdyZt1XmREDLXK7D9AF4B5pXRi9yvvZTzCOC7dL5w6v7bRxz0blq6OD8Ps+M4ULMP/qfuG9FaY0Ysof90W7suOlWsKEajAIsmnwJKSxQ8v4fZ47vf+Y1eRYA4etvG2amHuXnJIWq40cufux85zzfvhBNWm8QaDjmlzVkMKygTq1dMw/frb9O6kwCP/YGhcfuGBg3ihHmt74LPYn2Y/BWi1n1dv1iFFV5DCiRX41QPcv22s5oaTe2AQxIMkxVynR4RRNj3tHbCdlOxSfyPG761w2j3A3elZ9vXrjuRTPZQ8ZrRHCgveqDXBaACdnb0MBSfKEFgGnf/PJiFooXWV13CVkZEnJEm703fRPU2xZLQHOj08EcgYpb3nj7/kk05Xzx17EAgMkVnZM5+qTdW5qUX5ycpPb3AgzGDJYX0gk1JpoEmMJr0K9xxjSbCcZIZhJOz0NIAttvQAahMitQwkwgcsa/JT1sqfJogt/qLSf6cmgddHrK/Cy17T5MyDNJ1qpTFZt7VmMQgREt9eGalm01kiSoSAgbKxRmXsUMs7L6ajBjidpQ+oRfQdXLoJ1SSB1L6Dn8+XlA+O+utYYFJPMnoHvEzAB77G19gmwbKBn7ag7KOnLbU32qyCaUr6ILFFD87nOad/kFeBW07PwNA==
+    properties :
+     x : 10
+     y : 226
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACjqmKsd2WuXUnCo802Hh5LynyikOW7IsWTTFKIFAPXbwzhxW1KSe/7tNu80ZOmBY5jl41bVu+ML5LnW6h57fveGHTimCdcmshAsQ9iEuaZoF4Tth4QXFqFKKHw2Hzy3ccQTCufcdRIG1XfK6C9YLLuZZQo+MK/bOTV9m63kwUsLw==
+        code : |1+
+         sChaineAImprimer est une chaîne = [
+         \u0010CT~~CD,~CC^~CT~
+         ^XA~TA000~JSN^LT0^MNN^MTD^POI^PMN^LH0,0^JMA^PR5,5~SD10^JUS^LRN^CI0^XZ
+         ^XA
+         ^MMT
+         ^PW406
+         ^LL0529
+         ^LS0
+         ^FT124,99^A0N,34,33^FB160,1,0,C^FH\^FDR\82servation^FS
+         ^FO21,57^GB369,61,8^FS
+         ^FT17,345^A0N,28,28^FH\^FDDate:^FS
+         ^BY2,3,126^FT59,254^BCN,,Y,N
+         ^FD>:%CODERESA%^FS
+         ^FT18,388^A0N,28,28^FH\^FDHeure:^FS
+         ^FT104,389^A0N,28,28^FH\^FD%HH%^FS
+         ^FT146,306^A0N,28,28^FH\^FD%ATT%^FS
+         ^FT18,306^A0N,28,28^FH\^FDAttraction:^FS
+         ^FT199,431^A0N,28,28^FH\^FD%NBPPL%^FS
+         ^FT87,345^A0N,28,28^FH\^FD%DATE%^FS
+         ^FT38,466^A0N,14,14^FH\^FDVeuillez vous pr\82senter 30 minutes avant l'horaire indiqu\82^FS
+         ^FT17,431^A0N,28,28^FH\^FDNb personnes:^FS
+         ^PQ1,0,1,Y^XZ
+         ]
+         
+         sAttraction est une chaine = "Le petit petit monde"
+         sDate est une chaîne = "19-11-2018"
+         sHeure est une chaine = "14:30"
+         sNombreDePersonnes est une chaine = "3"
+         sCodeReservation est une chaine = "RS23158724"
+         
+         taMesDonnéesVariablesMesDonnéesVariables est un tableau associatif de chaînes UNICODE
+         taMesDonnéesVariablesMesDonnéesVariables["%ATT%"] = "Le petit petit monde"
+         taMesDonnéesVariablesMesDonnéesVariables["%DATE%"] = "19-11-2018"
+         taMesDonnéesVariablesMesDonnéesVariables["%HH%"] = "14:30"
+         taMesDonnéesVariablesMesDonnéesVariables["%NBPPL%"] = "3"
+         taMesDonnéesVariablesMesDonnéesVariables["%CODERESA%"] = "RS23158724"
+         
+         ZebraPCImprimeChaineZPLVariable(sChaineAImprimer, taMesDonnéesVariablesMesDonnéesVariables, "FEN_Zebra_Impression.CB_SuccesImprimeChaineZPLVariable","FEN_Zebra_Impression.CB_Erreur")
+         
+         taMesDonnéesVariablesMesDonnéesVariables["%ATT%"] = "Le retourne estomac"
+         taMesDonnéesVariablesMesDonnéesVariables["%DATE%"] = "20-11-2018"
+         taMesDonnéesVariablesMesDonnéesVariables["%HH%"] = "14:45"
+         taMesDonnéesVariablesMesDonnéesVariables["%NBPPL%"] = "2"
+         taMesDonnéesVariablesMesDonnéesVariables["%CODERESA%"] = "RS56194725"
+         
+         ZebraPCImprimeChaineZPLVariable(sChaineAImprimer, taMesDonnéesVariablesMesDonnéesVariables, "FEN_Zebra_Impression.CB_SuccesImprimeChaineZPLVariable","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ImprimeFichierZPLVariable
+    identifier : 0x2c76bd77025dde32
+    internal_properties : CAAAAAgAAAC9HhxUyOPc2+MXf05SCpk+1SPhqXzS4BsjBFrWp7XI76r/xgSEVWf6kAT+AIv8Wl+1B3R2nsxFF58LmqYGrfQwSJ1ED3bbxR8+lijSx9qHWZTw6t/+sWu53oK3cIH8L/o004SGQyTE4z19cnsw9T25RymRDFcTjOAnS7wlANi+yU6ZlIDMuWp6ti6OsE57NVr7ZI+MUZxCvYmGrjNyZkh9cRR7yjllcnAmDK8la8AsEeY2Gvkv94i7lFRm44Nfkum8F75BU3c5JtaHIqetlKFWnKvAam2nS+nyLrM0U3RRNWsRJD7p/57t9wDo6cVXBL8N5hs2dXKewMN2vSJVwgDLXMajQgil9eypoRjvP5ze7qJ5yIb7T0PniJm55ij1djt3fg9kAVI7eX51Y5FZcNnQVGYks7I2LjB5bTH4PuwENqB+FEXJmYZD6HIcm5gxlLiTuVPno1crRP471xS19dglhPdW3fprAyAJFBhxBpcU2/3FmnZ16y0Tg0BRJUN0Dm782+EwOfosIkBXvhcgT4N5hXYr0Qk28joDzG0jvG8RJjGZI1KyPgIeJbG4M4rAP/Nd+5/tBED7hLENydylM8/5Ri5aqQFOM4i2NG/mkV7GgwhR4YngGLT1i1b/WnioSuA+uHAvXsSV+G3+sT3uHWC8Bn8+NGWwH8M4mslYiwywF2Ysv3nm/fvg0qIMlfRnm4emiaP/pm1pmA7ovvgs1qaNxMTdlsH5fXi3mWtKqLUzFfM4mD1P4xszjOVfre6Enrhy0owX0JYnLPPK+ujznytJiJrU3fxLlaqSYRP5Psy1d6oakdIG+IVgSBuiH54h9S7G+m5vy1K3zU6kzJn17dc9rRBR0BmKsj15MukxR0ienFOy8YEx/ZfpYFSwFQyOP8kgJy6yXNkIkX59RygrF1Z61gIL+Enz4DWSphzpIhN3Dj/Xu8LRg+QK9YuOcw9sb1urUyzGo4xPWESbYiFylchgwRYT4pa1X5GYpFB2UOVz418KhrDtE2kafQHDkUIQ92LHJIcatphczrQqkoaTauwPmQkZku3FJr3ckzFU7xhuoJ2C4A0AWdSlQ01qPyRTPctqK8Dg+tVUBHDyc+DYT50c/jg5gSjPhNvIz+51doRTWsq1VJPoaATKHrpVXx9fP/XONXEhx2/rEj8dxgEOuiZtTcdumwjXZDBPj15bl1gvBGnVIfr3Q/tVnyEdjv89UsyUXcPRyx1zmxsY7yrLy0EGWhSLuId/pNl5ockcWk0BNo6k/VZ5lkMQMihsBZ6uyA==
+    properties :
+     x : 10
+     y : 280
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADQn4x6Rz1+mMM+sy7SN+z/G8ABPZQFhK4ZA7djFU+2D/co/LkNTVdPbnrb+TWib5SXgG9/o20VlJ9wQo2/wCPbCHPaB0q+k7AlieLA5eBJPV4ltN0VfQXLB53P3hyPTkFyOWt/hq36A0CpQQ==
+        code : |1+
+         
+         sFichierAImprimer est une chaîne = SysRepStockageExterne(1,ssePublic) + [fSep] + "test.zpl"
+         
+         //Si le fichier n'existe pas, on le crée.
+         SI fFichierExiste(sFichierAImprimer) = faux AlORS
+         	sContenuFichierZPL est une chaine ANSI = [
+         \u0010CT~~CD,~CC^~CT~
+         ^XA~TA000~JSN^LT0^MNN^MTD^POI^PMN^LH0,0^JMA^PR5,5~SD10^JUS^LRN^CI0^XZ
+         ^XA
+         ^MMT
+         ^PW406
+         ^LL0369
+         ^LS0
+         ^FT94,50^A0N,34,33^FB219,1,0,C^FH\^FDTicket de caisse^FS
+         ^FT10,98^A0N,28,28^FH\^FDProduit:^FS
+         ^FT10,324^A0N,28,28^FH\^FDPrix Final:^FS
+         ^FT166,328^A0N,39,38^FH\^FD%FINAL%^FS
+         ^FT11,155^A0N,39,38^FH\^FD%PRODUCT_NAME%^FS
+         ^FT12,197^A0N,20,19^FH\^FDCode article:^FS
+         ^FT12,260^A0N,20,19^FH\^FDR\82duction:^FS
+         ^FT12,229^A0N,20,19^FH\^FDPrix unitaire:^FS
+         ^FT122,196^A0N,20,19^FH\^FD%UPC_CODE%^FS
+         ^FT123,260^A0N,20,19^FH\^FD%PCT%^FS
+         ^FT123,229^A0N,20,19^FH\^FD%MSRP%^FS
+         ^FO11,277^GB388,0,8^FS
+         ^PQ1,0,1,Y^XZ
+         ]
+         fSauveTexte(sFichierAImprimer,sContenuFichierZPL)
+         FIN
+         
+         SI fFichierExiste(sFichierAImprimer) ALORS
+         	taMesDonnéesVariablesMesDonnéesVariables est un tableau associatif de chaînes UNICODE
+         	taMesDonnéesVariablesMesDonnéesVariables["%PRODUCT_NAME%"] = "Poires"
+         	taMesDonnéesVariablesMesDonnéesVariables["%MSRP%"] = "3$"
+         	taMesDonnéesVariablesMesDonnéesVariables["%PCT%"] = "60"
+         	taMesDonnéesVariablesMesDonnéesVariables["%FINAL%"] = "1.8$"
+         	taMesDonnéesVariablesMesDonnéesVariables["%UPC_CODE%"] = "25796537"
+         	
+         	ZebraPCImprimeFichierTemplateVariable(sFichierAImprimer, taMesDonnéesVariablesMesDonnéesVariables, "FEN_Zebra_Impression.CB_SuccesImprimeFichierZPLVariable","FEN_Zebra_Impression.CB_Erreur")
+         
+         	taMesDonnéesVariablesMesDonnéesVariables["%PRODUCT_NAME%"] = "Pommes"
+         	taMesDonnéesVariablesMesDonnéesVariables["%MSRP%"] = "1$"
+         	taMesDonnéesVariablesMesDonnéesVariables["%PCT%"] = "50"
+         	taMesDonnéesVariablesMesDonnéesVariables["%FINAL%"] = "0.5$"
+         	taMesDonnéesVariablesMesDonnéesVariables["%UPC_CODE%"] = "25794619"
+         	
+         	ZebraPCImprimeFichierTemplateVariable(sFichierAImprimer, taMesDonnéesVariablesMesDonnéesVariables, "FEN_Zebra_Impression.CB_SuccesImprimeFichierZPLVariable","FEN_Zebra_Impression.CB_Erreur")
+         	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ImprimeTexte
+    identifier : 0x2c76bd77025ede32
+    internal_properties : CAAAAAgAAACL0bpKqZ/0zwYbGYjw+uIb6M3a8ezObEAi2HkDGPDEb1QuknuZ6Key0fi1SpknOBO/jVFsNbBfHy4qDCqpEVQFyF6F7ftsyU4fFXPU2wW7arA+0AcCH55hcSN0BnAZYxytUB5kr/rzkZaGekMIqTN2fW8glMwIsAXW9k+PJGfQvBF9aDUlbP6LNVv5nyvy52vWazk9hAOEK62zdfZ9NX1OymqzR3EBRm7JwwQKpVd1Yo6TDevUaClEM4+OjHx9iogFO+4qg2LMhXdWhhn0dMBAcEd7f0XnWWg6L8yz51A6zc/ggo/f8xmqKM0dKpwMhFmPr4mzQyd8zhPbd3PXq0jGSshxjndSvLjurROfTAJSI3Jsvt1kDXnyGKssexmh+MYmAwhP5cMpOzMEtbV34gUtQS1PRSACYUnCArpEO582qfhLUkEqPFjAcpk0a32e57PWgwFx3LorFhGHkNNz3HAUnyRj5Kioq5Lc2xN8x2vUhGfQVaq0O2T0aQBi7LlvpeNG4wxl4/6dCUACNWf3guNCm4h9aJ6mHSQfN/GOgtUNrR/wWZ54Y6eXsKCbXAPgbSZs3yFCwvavPTCrXxlopYPzTiX/etDEFIJoROoPDiIlb3cQTwNzIgqb3YsH4zonlRjAvL6yShbZ/NWHXjyBJdqLEjgXFlF33ZX2PCGewDva+AouMjFJ1JuSv2mQdRfDHP8zLeF3fSFy35LMUUnlzhYxwCGx6VPU/BUkGw3oE5Kg4UlEWjYJzDlUkzp96GV449l90l3paTLLsaDkdF50VIDmMPx62Miegbc6gXQLF+CeHQjxT0twaCBuknjhdmFiIijiaSbmbtdiV6Gz2snFWscvNNmHqyI4IXYMrSsJpjYLx5Icn7+YDm4lyeaLf+ubT7jG3DiZkZmjXIyBP/PCOOQoLYPMsJNDQjoOtLzBsKKRE+Iat99jN8lp+MkwVbIN7MsHfqJbej0RMSNRV/ioQ7C5+10yeBcFVAUdvTqNDIaTuSHU3qOjEP06lV4/+z9oxkM9hJ6BXmnFFeXDSulwQunV17RXqxW1fFaP0b8Umpprb1ekaA==
+    properties :
+     x : 10
+     y : 118
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAA6HnY+nDnMKGeFAvYNIOgyzg2BJzYBJsp4f9lFCc5JQxxObVL28leffzBPp8fz7l9HdxkRMh3l26DhHpmxbC4Gp03nOk4Dr2JwGTaEBlbQeH0Ef1KV6eP3bkdlAG48NF2tA765yFNzCWHSoewNVr5PhZFJKETIEF5cOd71
+        code : |1+
+         
+         sChaineAImprimer est une chaîne = [
+         Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit.
+         
+         Fusce ultrices consectetur sem, vitae lacinia enim blandit nec.
+         
+         Vestibulum sit amet turpis massa. 
+         
+         Aenean maximus nisi a ex consectetur scelerisque.
+         ]
+         
+         ZebraPCImprimeTexte(sChaineAImprimer,"FEN_Zebra_Impression.CB_SuccesImprimeTexte","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Tester_les_fonctions_d_impression
+    identifier : 0x2c76bd770260de32
+    internal_properties : CAAAAAgAAAAs+IRsQO8T2NOPn7zQbKa+yv1MkVk+6NSyh+g/+wUDCiJKE/mI0OQQV1qX+54kjqGSSRSQnCYmoQSSSsIZ6DlJPmbhYiKlzVz8LzEHoBFWOPE3o/fHaFe/zJPRHC7H1UOvRRd8PDSO+Qbvx4p51PGPWe+7nDzgUAKwsO7Yc++EwbP3Vm0loKdla/XaKe/i+tAJF8lry3uqh6F17tBH9x4pmiIwMSkmyhYLPL2QHguI6Q4zF8CF0Bhw/lGgbz0pB7Jmv3MFU03fXm67DBMXG6HYpG22aGjKrtzHF9Xx/U2yUUjPcjpysaqfSOMvKi/4ORdk6pINRK0Bsarm1YZJ7hsWdwji2RMbmnUOHPOFlnbEoXRbS5UbknFG9jkS5VX8WxCsaXsWLWx6AiKTfKKoksy6Unotk0Nq+abuikes7sVqB9L6nAx3kBqbM3yayfDGJyoKu9fZcQ932LbqMsbg/h+rEo/njXQo4UlZOutSbW8Uy5umQm5HOZTHWdKneGO3Ur9hm1IyyhN8fczytY/Goqh1OPVZ1FlDIP35aYSVcqhK8LLakb0MxKug01FOp9xeSjQ/wE274368A3xZm/1CYE7wPa1UHaJ5Sp2XuzVGJTz/e+EpCbS15lKdCofqF2pwtWO0rAFEx42MSy6ukrC9ezfUs/Piwi8NbyarlfNORFBqrZSNz9ugtvFPX/nkFl/7fygLiEw0kYWJhgWdMtR4RCrIxwJhnrsHfpbav+j5MLdUwLOVq1JSzGdOnirlYZr3+Ldyao7wlK96lgT417yPmzy2DF9zdcN68Kym8Wb8O3j+6bzEPuJPmi/pllRGwIPvD3ESVduFfL0AWk1/xgBs3mWUMn1Ywgt0F6EgYCf0lQqW8YTugh/nT/429mqRH7VxBdDfcEkXXkWJxgNSFv/6UL7dI5xvKQlfD6RGKKyuCVClNXZcCqN4HgPlWBwK9cJ2zyL8lWBQb8j+PuIk6x85vQ06H4cqgZjtvlCVWJDdah9Z
+    properties :
+     x : 10
+     y : 351
+     width : 300
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         MaFenêtre..plan = 2
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Cet_exemple_vous_montre
+    identifier : 0x2c76bd770261de32
+    internal_properties : CAAAAAgAAABUHRrudzEWzq9MFqFXkNUSwXz35jbgAXCuhlA+v6pgWxvG0PHIZ1nNVfnHdJ1wFkycFnNwzKAVbYbhPB7BK++SRpNbfitp4ablbWCakVyxsj9GobcE7JWhwkMg+tkTQLzSAAU5kZlxf7C3ybc8KwLdoRd1haT+QZRnf+RjxGXrwtpnjDppEjWj79ASQTSco1sqlq5+f1Srri9hHj28/sw87gzkn3Yk6OaFvt61JZqpUZVkPj/LhxIpfVmL9Si7va1nKIBKNw27BzNntbh1UWJVZYeUzxiLQ6v0H2AeufGUJ5SXAJtR1A/3AOlGp/SF/+mRRcY5Df8M4pSlrCaR3ffDs4qCx8LL9gLAUSeHya4LNqSSIRNf/R6pOWsu7vdo5RG/iPyGBkYjsSoVZRIBOzH4VEdh6Xuov5Ej701/zW+oV5T1Xxm0bLUkNRIerVoA0sVJEtFn1wqJ1OyT8iScSEiUpw/HybSQ3uch/aCelUFoCv/s9K1HsXVIf+h1nyZwL8BetVWOQbg6bHxpTYPsgB8qTQP1UoJOZrT/FJkXVkGwQfzOpGCGzewTk1eCw+QSq4G+NEaarbfzXw6aFPM6XE/Nf61nqi6rgNGQUb1FMBhkhB+2a2r2dfHYUraxZx9JWcdSlp7LzKDj0UfHryIDq3i/boGP7V8KCy1XKkm7b+u3vWIlnaCtKItcWizfE/bDzlXn64smp9OGB8iykk9GZU/HO+aXZxZ9QkTGAdREvXS1cZ4cosB6qgAqK0Se6jdSku4efKAQ+DsWdeNi71ibe4VFR33wo+QQkkeHZnhtprQvQ3AzclWFUPWC11iUEZEZHNIPGhtBdRvL+cYfHUMV0WKdthzL1X0Jfbw=
+    properties :
+     x : 10
+     y : 11
+     width : 300
+     height : 280
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_PrintConnectAPK
+    identifier : 0x2c76be38029cd104
+    internal_properties : CAAAAAgAAAC8F2iI6s8CZ4VBlPq4Wb2mcn/YvQExCDX7yZqsYh8quHJ+YQ7fqFRCLbhfFEjwXAeVXQNHisHA/9pLdDQYgsqp0d7PF7C9o69dRpyeyVgfQ2/A1QNVCST8TzySksAk9DUVlcyLUUOG0SgAVm+SU0WQqaZ8cNqVJnB3bdNovQhinUXQXpktAUG1/WigyEA/eF1nuB9y5SB/wItRbqh8mUBmN7+zGK6crIS8nsxf83SwSqW7AgmptnVGjdV4MOFjz+psWHEVGlJj2rCfaePzGWKG+ZSds9MASktukalkiJi9zTnzXpHuwovQVgK1YYwmbNLkfUZxbo0RGiXESD76YkTC8DG+ErkjSD2stnxubdaXxoTuzKKtT/wrs6gKF8LKAv3yQHcZEbNEGm3isg89/4nqRAaNOwZMCRG22uHMCOC1TOiEl4pNklb/E8QqLUtO+gzHg5SY5tdkTGOIpZlWY86MZ09mNMDLq3hrQnvJr7NF2eXG1GMzXHBbCQnR3cgL4l5vuI9P2mTIvYQwXS2ku1GUwP7Uaipgt8KJSyvAM5R1hRxyIpq+n4DItXNP5sx3qTnzO+DbnbCPFroujIR2HB+4fHC0gZ83gJHBIRYQq0z8tzNmH0YO01rHCzXP1WC7xBuzVAgVzHlhGBRA6KoFWoUKEiDntLcug7aVxiLbZD/zgdVp+7sZlKaQaPx2PYUFximfK0eR+1YMv+ahQl6ap2Taa5Erpqqcmybra0gfTII6t5HpJc3j/MxIA8FWceTFAbQOyAQJX/CH9P9O/ru/EGUfHyDWn7vx20P2jWp/nJ17aukiqH4sTY/Xtz0bOWgWJXtv+GdU/1BMzCr2HFk9nbnUfk/qsH2SlQno10lHsjVwj8ZK3iloAApG/ohXmr96OfsjDvL37/yT0I85d5HMy+B8NqRe5LND8BhibwYkBWLDzQUjjlN0bfwOt9J42rYo/lzgbUFGEcr/H3Ceyv8rhEZFYQcZ1w5cPUoLczbehCqVu1HnE6KDzSX2RLb2JCLFLsTxCdUbGv9YcEr+ZF2WtFWjSbBLGEjxizHggc94Pb1AR/sm7+Gqyxz2rtlT8eOxjfCh+F0PLk84KnJQp7V83nP/RSeBrLV0X4eSSgyRDv3LuoH+ghqvxw/Px459t+3viRhZPiq+tMop1Q55qOSn8v0p0dGo849/QuQZZt9j76lX4X5RGQ2gKkPW/0nw9dc3tHYSnyI+3DY+lZrX7590lEt4g629
+    properties :
+     x : 10
+     y : 287
+     width : 300
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAkI9BOoSGWiEfmCw5+g8zrL6DFOchRpGbNs28b4UO+S1M4MC0h4adn0pKT0cH+32iTYBujJ0v37tViEJu9xuWJcr2gjXisZXqDI9B2U2aD6wgnWhPjsy91HY8tnEJ1oEekayndLGtO1xT9FQ==
+        code : |1-
+         
+         // Ouvre le Google Play Store
+         LanceAppliAssociée("https://play.google.com/store/apps/details?id=com.zebra.printconnect")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ImprimeSautDeLigne
+    identifier : 0x2c8bc91e00aa76b6
+    internal_properties : CAAAAAgAAADbzIM4MrOH6l9PjMkbmm/vxzeX6bEaIdi7x4HsIg4BEM3IoxII5DHOw870VePrF1/E9M5UggEJC0BB8CWtPuGR8rtMWsBkgDoDwX+T4eCVl8IBsW10gdaMrSl+ooUONLDoeacpYhT87+Z++TN9ReWgnavoTX4UmEvKmoUecIKwOAVlf5uKZJq8iPjYln4wqNbPY3Ko+e38f+XEKemK/Dcvi6NHRGGIB+65wQagAAI8JKF0UXwA66kFnQDVL1aK1G72rE1YUCNPFIsTBAMmDiUp9tS8DX/i746VaAxKHhNZcIzTKnq8NaO5ia9IAxZUvfznYn6/sCNyVziJaWWN0L+rNdva/6YbKC97zoyDmhzIeAMQ7mFeLNmei08mzRLPoWUCEbxdcifT9w1oNLmLBEt3mKnH7LcamqyVVvd34fbIV4WuyMmEjN/qKJGqYz/Q/97mL2WYWvkPu/fE8YJYAlhf/P4mGwcO422jn8eDL0W94Xtqu2t/BTtNnKWsDlTKUO4N7h02G+0ofIotwpVnG9fws8TL5vxCEN8liFJo8KwoCL58ws8V3CINOJOUR9LjbAK2in7F0TP+J2Bwqt4J2siRluQQtb91tzjIwWfgM8Pm65F5Cjicr6nfRzxUPrHiZIRGouZcOFLQHCvHEKkaepzbJHoefUQ0zK/2o6AlZAei63UcKnWxciG5eBkyV+X/aswfK9UPwT8SWZfS0+5FZpTomhTfFKKioU1LsoFcoTMfPLO9XeQZwHAsX7JHuACTjHCiVQcQZ/1kYAk72PODGpk9XxDzgDQ//IeEjlRSi+xUTEdybnDKZTLAVUI9Z61enk6UhYyTElm0OF8ske+7OZGPxKkrEZZJq2/M1SbpCyMOR3caShdQERM1bUJShXTccSHndWU6qyNnvGGLTb4jvxFc85KY2lS35t1jyt6aOJBdJCmlD8tPl0GUYv6Ele68jC6WunAWO6z1ZWZfY8oRhrA4t9J8VrEv4J5aq8Sw7HQpTiR6UW7qj1+ZtgFhZzziIDjQfDAoghiWCdnVXzYZrU1fVukSKYAIVkfh0lo=
+    properties :
+     x : 10
+     y : 64
+     width : 300
+     height : 42
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Imprime un ligne vierge
+         ZebraPCImprimeLigne(RC,"FEN_Zebra_Impression.CB_SuccesImprimeLigne","FEN_Zebra_Impression.CB_Erreur")
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2c76bd770262de32
+  internal_properties : CAAAAAgAAAD67MqcPZqKFbMfgltQ3LOQ5bxw5mySo8zKWH36njv+4vOTipcPZbgI6v2ZLFRrHwn/0AUQ52QkC0HYZsFzrXY5iMVcXCEKFRE3jXDYoQ2jAmZHH6eew1ErhGlBTdCdMOwEVUGAONOplYnybLBsAQWfSZiG5ajGc62Wwe9LW/MstB6LFFVAtUHPArriLlYaO0tnKPL8IwPdpdsVWQFbCufASHJztf9dNvvaJHpy8Z09hVJ53IcG8P+sM8+ofeIL+W8wTwR6dzCq2JxLHGTVijyZkGcRIm4oegAs6Ji+L01M7pwUvqcoOjK8skeGl77p5QXnyCXnQ6xzCOyrungiSlG23P/vvAdZ2WlgCpRxci0nsgjMb4VpEvwUThoXEXlHE3ZSxSe8XyHpRtD4NAbNMd2M4tatDbSU3w==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      gsStatusTexte est une chaîne = ""
+      
+      
+      MaFenêtre..plan = 1
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : CB_Erreur
+     procedure_id : 2051034999124450866
+     type_code : 14
+     code : |1-
+      // Résumé : Procédure exécutée lorsqu'une méthode PrintConnect renvoie une erreur
+      // Syntaxe :
+      //CB_Erreur (<sMessage> est chaîne, <sErreur> est chaîne)
+      //
+      // Paramètres :
+      //	sMessage (chaîne UNICODE) : Le message associé à l'erreur
+      //	sErreur (chaîne UNICODE) : L'erreur qui s'est produite
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_Erreur("Une erreur s'est produite lors de la récupération du Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Erreur(sMessage est une chaine <utile>, sErreur est une chaîne)
+      
+      Erreur("Erreur lors de l'exécution de la commande","Détails de l'erreur : " + sErreur)
+     type : 458752
+   -
+     name : CB_SuccesImprimeLigne
+     procedure_id : 2051034999124581938
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on a imprimé une ligne avec succès
+      // Syntaxe :
+      //CB_SuccesImprimeLigne (<sLigneAImprimer> est chaîne)
+      //
+      // Paramètres :
+      //	sLigneAImprimer (chaîne UNICODE) : Contenu de la ligne que l'on vient d'imprimer
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesImprimeLigne("Je suis une ligne à imprimer")
+      //
+      PROCEDURE CB_SuccesImprimeLigne(sLigneAImprimer est une chaîne <utile>)
+      
+      ToastAffiche("La ligne a été imprimée avec succès")
+      
+     type : 458752
+   -
+     name : CB_SuccesDeselectionneImprimante
+     procedure_id : 2051034999124647474
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on a désélectionné l'imprimante avec succès
+      // Syntaxe :
+      // CB_SuccesDeselectionneImprimante ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE CB_SuccesDeselectionneImprimante()
+      
+      ToastAffiche("L'imprimante a été désélectionnée avec succès")
+      
+      
+     type : 458752
+   -
+     name : CB_SuccesRecupereStatus
+     internal_properties : CAAAAAgAAADqRTYAs+57GRS0a3mGCAOqpRI+Agbl0TbeMABJmT6iN0CdC4rJGKSZHnYyja5m1V6cLOw1Rt71U5hkbd5URPy91yh6Umxqn7pWHjogAjMcD4wR/zcTdBkm8p86tIlqNFl5qM8F+o9bBDZBb+ABOXRdEgCGw032kaZZRoXxlm4+Lws1be+cf867UX7gaK3p3DXnxFcWCYI=
+     procedure_id : 2051034999124713010
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on vient de récupérer le status
+      // de l'imprimante avec succès.
+      // Syntaxe :
+      //CB_SuccesRecupereStatus (<sStatus> est chaîne)
+      //
+      // Paramètres :
+      //	sStatus (chaîne UNICODE) : Status de l'imprimante
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesRecupereStatus("isHeadTooHot = false\nisReceiveBufferFull = false\nisPaperOut = false\nisReadyToPrint = true\nisHeadCold = false\nfriendlyName = ZQ320L\nisPaused = false\nisRibbonOut = false\nisHeadOpen = false\nisPartialFormatInProgress = false")
+      
+      PROCEDURE CB_SuccesRecupereStatus(sStatus est une chaîne)
+      
+      Info("Status de l'imprimante: " + RC + sStatus)
+     type : 458752
+   -
+     name : CB_SuccesImprimeChaineZPL
+     procedure_id : 2051034999124778546
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on imprime une chaine ZPL avec succès
+      // Syntaxe :
+      //CB_SuccesImprimeChaineZPL (<sChaineZPLAImprimer> est chaîne)
+      //
+      // Paramètres :
+      //	sChaineZPLAImprimer (chaîne UNICODE) : Le contenu de la chaine que l'on a souhaité imprimer
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesImprimeChaineZPL("~TA000~JSN^LT0^MNN^MTD^PON^PMN^LH0,0^JMA^PR5,5~SD10^JUS^LRN^CI0^XZ")
+      //
+      PROCEDURE CB_SuccesImprimeChaineZPL(sChaineZPLAImprimer est une chaîne <utile>)
+      
+      ToastAffiche("La chaine ZPL a été imprimée avec succès")
+     type : 458752
+   -
+     name : CB_SuccesImprimeChaineZPLVariable
+     procedure_id : 2051034999124844082
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on imprime une chaine ZPL variable avec succès
+      // Syntaxe :
+      //CB_SuccesImprimeChaineZPLVariable (<sChaineZPLAImprimer> est chaîne)
+      //
+      // Paramètres :
+      //	sChaineZPLAImprimer (chaîne UNICODE) : <indiquez ici le rôle de sChaineZPLAImprimer>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesImprimeChaineZPLVariable("^XA^FT146,306^A0N,28,28^FH\^FD%ATT%^FS^XZ")
+      //
+      PROCEDURE CB_SuccesImprimeChaineZPLVariable(sChaineZPLAImprimer est une chaîne <utile>)
+      
+      ToastAffiche("La chaine ZPL Variable a été imprimée avec succès")
+      
+     type : 458752
+   -
+     name : CB_SuccesImprimeFichierZPLVariable
+     procedure_id : 2051034999124909618
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on imprime un fichier ZPL variable avec succès
+      // Syntaxe :
+      //CB_SuccesImprimeFichierZPLVariable (<sFichierAImprimer> est chaîne)
+      //
+      // Paramètres :
+      //	sFichierAImprimer (chaîne UNICODE) : Le nom du fichier que l'on vient d'imprimer
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesImprimeFichierZPLVariable("/sdcard/monfichier.zpl")
+      //
+      PROCEDURE CB_SuccesImprimeFichierZPLVariable(sFichierAImprimer est une chaîne)
+      
+      ToastAffiche("Le fichier ZPL Variable: " + sFichierAImprimer + " a été imprimée avec succès")
+     type : 458752
+   -
+     name : CB_SuccesImprimeTexte
+     procedure_id : 2051034999124975154
+     type_code : 14
+     code : |1+
+      // Résumé : Procédure exécutée lorsque l'on a imprimé un texte avec succès
+      // Syntaxe :
+      //CB_SuccesImprimeTexte (<sTexteAImprimer> est chaîne)
+      //
+      // Paramètres :
+      //	sTexteAImprimer (chaîne UNICODE) : Chaine contenant le texte que l'on vient d'imprimer
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // CB_SuccesImprimeTexte("Je suis un texte\n qui vient d'être imprimé\n avec succès")
+      //
+      
+      PROCEDURE CB_SuccesImprimeTexte(sTexteAImprimer est une chaîne <utile>)
+      
+      ToastAffiche("Le texte a été imprimée avec succès")
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fc7bd93003975e7
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
